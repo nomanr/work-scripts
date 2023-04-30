@@ -1,0 +1,21 @@
+{
+  "name": "work-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.16.3",
+    "cheerio": "^1.0.0-rc.12",
+    "dot-object": "^2.1.4",
+    "node-fetch": "2.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
